@@ -1,0 +1,101 @@
+.section{
+    width: 1300px;
+   
+    // border: 1px solid;
+    &--paris{
+        width: 1300px;
+        // border: 1px solid;
+        &_h2{
+            width: 100%;
+            // border: 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 44px;
+            span{
+                color: #317AC1;
+            }
+        }
+        &_lists{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            &-item{
+                width: 420px;
+                // border: 1px solid;
+                background-color: aliceblue;
+                img{
+                    margin-top: 50px;
+                    margin-left: 100px;
+                }
+                p{
+                    font-size: 25px;
+                    margin-top: 100px;
+                }
+            }
+        }
+    }
+    &--servis{
+        width: 1300px;
+        // border: 1px solid;
+        &_h22{
+            width: 100%;
+            // border: 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 44px;
+        }
+        &_lis{
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            &-book{
+                width: 422px;
+                // height: 540px;
+                // border: 1px solid;
+                background-color: aliceblue;
+                h4{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+        }    
+    }
+}
+@media screen and (max-width: 450px){
+    .digital-container{
+        width: 100%;
+    }
+    .section{
+        width: 100%;
+    }
+    .section--paris{
+        width: auto;
+    }
+    .section--paris_h2{
+        width: auto;
+    }
+    .section--paris_lists{
+        width: 100vw;
+        flex-direction: column;
+    }
+    .section--paris_lists-item{
+        width: auto;
+    }
+    .section--servis{
+        width: auto;
+    }
+    .section--servis_h22{
+        width: auto;
+    }
+    .section--servis_lis{
+        width: 100vw;
+        flex-direction: column;
+    }
+    .section--servis_lis-book{
+        width: auto;
+    }
+}    

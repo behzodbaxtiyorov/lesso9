@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.digital-container{
+    width: 1300px;
+    // height: 3000px;
+    // border: 1px solid;
+    margin: 0 auto;
+}
+@media screen and (max-width: 450px){
+    .digital-container{
+        width: 100%;
+    }
+}
